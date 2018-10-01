@@ -9,16 +9,17 @@ import { FormulaireComponent } from './formulaire/formulaire.component';
 import { AcceuilComponent } from './acceuil/acceuil.component';
 
 const appRoutes: Routes =[
-  { path: 'acceuil', component: AcceuilComponent },
+  { path: 'acceuil',         component: AcceuilComponent },
   { path: 'formulaire',      component: FormulaireComponent },
-  { path : '', component: AcceuilComponent }
+  { path : '',               component: AcceuilComponent }
 ]
 
 @NgModule({
   declarations: [
     AppComponent,
     FormulaireComponent,
-    AcceuilComponent
+    AcceuilComponent,
+    FormulaireComponent
   ],
   imports: [
     BrowserModule,
